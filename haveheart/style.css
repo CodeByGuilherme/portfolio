@@ -1,0 +1,22 @@
+body{
+    background-image: url('105bw.jpg');
+    background-size: cover;
+}
+header{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Bold', sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+.bio{
+    align-items: center;
+    
+}
+
+p{
+    background-color: rgba(0, 0, 0, 0.301);
+}
+a{
+    font-size: 30px;
+    text-align: center;
+}
