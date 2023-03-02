@@ -1,25 +1,33 @@
 body {
   background-image: url('105bw.jpg');
   background-size: contain;
-  
+}
+.main_header{
+    text-align: center;
 }
 
-header {
-  font-size: 40px;
+.main_title {
+  font-size: 60px;
   font-family: Impact, Haettenschweiler, 'Arial Bold', sans-serif;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.301);
+  margin-top: 0px;
+  margin-bottom: 10px;
+  
 }
 
-.bio {
+.info {
   width: 50%;
   padding: 20px;
   float: left;
   text-align: center;
 }
-.bio .article_title{
+.info .article_title{
+    font-size: 40px;
+    font-family: 'arial bold', sans-serif;
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.301);
 }
 
 .text {
@@ -27,6 +35,28 @@ header {
 }
 
 a {
-  font-size: 30px;
+  font-size: 40px;
   color: black;
+}
+.listen{
+    font-family: sans-serif;
+    background-color: rgba(255, 255, 255, 0.39);
+    text-decoration: none;
+}
+.listen:hover{
+    background-color: black;
+    color: green;
+}
+.discography {
+  width: 50%;
+  padding: 20px;
+  float: left;
+  text-align: center;
+}
+.discography .article_title{
+    font-size: 40px;
+    font-family: 'arial bold', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.301);
 }
