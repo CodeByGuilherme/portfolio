@@ -41,7 +41,7 @@ a {
 .listen{
     font-family: sans-serif;
     background-color: rgba(255, 255, 255, 0.39);
-    text-decoration: none;
+    text-decoration: dashed;
 }
 .listen:hover{
     background-color: black;
@@ -59,4 +59,20 @@ a {
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: rgba(0, 0, 0, 0.301);
+}
+.fullset{
+  width: 50%;
+  margin-left: 20;
+}
+.album {
+  display: inline-block;
+  width: 25%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+
+.album_cover {
+  width: 100%;
+  height: auto;
 }
