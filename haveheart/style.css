@@ -23,6 +23,7 @@ body {
   text-align: center;
 }
 .info .article_title{
+    width: 100%;
     font-size: 40px;
     font-family: 'arial bold', sans-serif;
     margin-top: 10px;
@@ -30,20 +31,18 @@ body {
     background-color: rgba(0, 0, 0, 0.301);
 }
 
-.text {
+.bio_text {
   background-color: rgba(0, 0, 0, 0.301);
-}
-
-a {
-  font-size: 40px;
-  color: black;
-}
-.listen{
+  text-align: justify;
+ }
+.listen_main{
+    font-size: 40px;
+    color: black;
     font-family: sans-serif;
     background-color: rgba(255, 255, 255, 0.39);
     text-decoration: dashed;
 }
-.listen:hover{
+.listen_main:hover{
     background-color: black;
     color: green;
 }
@@ -64,15 +63,23 @@ a {
   width: 50%;
   margin-left: 20;
 }
-.album {
+.album{
   display: inline-block;
   width: 25%;
   box-sizing: border-box;
   padding: 10px;
-  text-align: center;
+  text-align: left;
 }
-
-.album_cover {
-  width: 100%;
-  height: auto;
+.album_cover{
+   width: 50%;
+}
+.album_review{
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.911);
+  color: white;
+  margin-top: 0px;
+}
+.album_title{
+  text-decoration: none;
+  color: black;
 }
