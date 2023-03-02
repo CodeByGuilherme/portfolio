@@ -83,3 +83,23 @@ body {
   text-decoration: none;
   color: black;
 }
+.rodape{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.301);
+  font-size: large;
+  margin-bottom: 20px;
+}
+.CodeByGuilherme{
+  color: black;
+  text-decoration: underline;
+}
+.CodeByGuilherme:hover{
+  font-size: 35px;
+  text-align: center;
+}
+.trivia{
+  background-color: rgba(0, 0, 0, 0.301);
+  text-align: justify;
+}
